@@ -1,15 +1,17 @@
-ECDSA 기반 key pair (private, public key) 생성 비트코인의 주소 체계와 같은 주소 생성 임의의 데이터(문자열)을 private key로 signature 생성, Public key를 이용하여 검증
-
-디지털 키
-비트코인 주소
-디지털 서명 비트코인의 소유권이 성립된다.
-
+1. ECDSA 기반 key pair (private, public key) 생성
+2. 비트코인의 주소 체계와 같은 주소 생성
+3. 임의의 데이터(문자열)을 private key로 signature 생성,
+4. Public key를 이용하여 검증
 
 
-실행 java -jar AddrDigSig.jar
+java로 구현
+
+
+실행방법 :  java -jar ecdsa_bitcoinaddr_java.jar
+
+실행결과 : 
 
 공개키: 3056301006072a8648ce3d020106052b8104000a0342000430a69bafe6b0b4d1a7a46d181db1b63bcac87b0092454cc902eb0fc022274394546e5901c4e2c1c14d0c02393cf46e76ed7e5a46dfb3be00e21a3b213978e0bc 
-
 
 개인키: 303e020100301006072a8648ce3d020106052b8104000a042730250201010420b3e0673eedc2582d36741cd7502470b3176b517559ad673009b3df8c8bc86900 Bitcoin Address: 1GVsscSys19nXbNEJi5g1Z1y8UawVFkeDn 
 
